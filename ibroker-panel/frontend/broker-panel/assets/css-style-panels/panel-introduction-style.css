@@ -1,0 +1,150 @@
+.introduction-form-container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.introduction-items{
+    display: flex;
+    flex-direction: column;
+}
+.introduction-items-header {
+    border: none;
+    /* Black */
+    background: #201F30;
+    border-radius: 8px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+}
+.introduction-items-header h5{
+    font-family: 'IRANSansWeb';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    /* Write */
+    color: #FFFFFF;
+}
+.introduction-form-container .introduction-items .row label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;
+}
+.introduction-form-container .introduction-items .row input{
+    /* Black */
+    background-color: #201F30;
+    border-radius: 4px;
+}
+.checkBox-container{
+    margin-top: 24px !important;
+    /* Black */
+    border: 0.5px dashed #201F30;
+    border-radius: 10px;
+}
+.user-introduction-row{
+    position: relative;
+    margin: 16px auto  !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+}
+.user-introduction-paragraph{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;    
+    padding-right: 0 !important;
+}
+.introduction-bank-row{
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23333' stroke-width='1' stroke-dasharray='12%2c 20%2c 7' stroke-dashoffset='64' stroke-linecap='round'/%3e%3c/svg%3e");
+    border-radius: 8px;  
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+    display:flex;
+}
+.introduction-bank-container{
+    /* Write */
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    display: flex;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  margin-top: 24px !important;
+  margin-right: 16px;
+  width: 128px ;
+}
+.introduction-bank-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: justify;
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.introduction-bank-image{
+    width: 48px;
+    height: 64px ;
+    position: relative;
+    margin:0 !important;
+}
+.header-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 20px 0 !important;
+}
+.content-header{
+    padding-right: 0 !important;
+}
+.checkBox-items{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.checkBox-items label{
+    margin:0 !important;
+    margin-right: 8px !important;
+}
+.checkBox-container{
+    padding:16px;
+    /* dashed border */
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23333' stroke-width='1' stroke-dasharray='12%2c 20%2c 7' stroke-dashoffset='64' stroke-linecap='round'/%3e%3c/svg%3e");
+    border-radius: 8px;  
+    border: none;
+    background-color: transparent;
+}
+.box-items{
+    border:none;
+    width: 16px;
+    height: 16px ;
+    background-color: #201F30;
+    border-radius: 4px ;
+}
+.introduction-items-row{
+    max-width: 98% !important;
+}

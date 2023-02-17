@@ -1,0 +1,95 @@
+/* respansive panel style  */
+@media screen and (max-width:767px) {
+ 
+.content .header-box{
+    max-height: 3rem;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    position: relative !important;
+    border: none;
+}
+.box-list-account{
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: right !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+}
+@media screen and (max-width:767px) {
+#attorney-row{
+    display: none;
+}
+.Description{
+    display: flex !important;
+    order: 2 !important;
+    position: absolute;
+    left: 2%;
+}
+.table-box{
+    border: none;
+}
+.hide-element{
+    display: none !important;
+}
+
+.table-body{
+    border: none ;
+    margin-top: 8px !important;
+    /* Write */    
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+.check-box{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+.check-box .input-checkbox-container{
+    /* Write */
+    top: 0.2rem;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+}
+}
+@media screen and (max-width:992px) {    
+.check-box input {
+    padding: 1rem !important;
+}
+    /* rules */
+#rules-container{
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 80%;
+    margin: 1rem auto;
+}
+#rules-container .rules-main {
+    position: relative;
+    margin: 1rem auto;
+}
+#rules-container .rules-main .rule-box-item{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: flex-start;
+    padding-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#rules-container  .btn-enter-box {
+    display: flex;
+    justify-content: center !important;
+}
+#rules-container  .btn-enter-box  .icons{
+    border: none;
+    position: absolute;
+    left: 35%;   
+}
+/* rules */
+}
+/* respansive panel style  */

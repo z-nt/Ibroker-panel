@@ -1,0 +1,34 @@
+/* responsive panel style  */
+@media screen and (max-width:767px) {
+.continue {
+    display: none !important;
+}  
+.customer-obligations{
+    position: relative;
+    margin-top: unset !important;
+}
+.customer-obligations-items{
+    border: none !important;
+    text-align: right !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start ;
+    margin-top: 8px !important;
+    margin-right: 24px !important;
+    width: 80% !important;
+}
+
+.Confirmation-text-box p{
+    text-align: justify;
+    margin: 16px  auto !important;
+}
+.Confirmation-text-box{
+    position: absolute !important;
+    top: -10% !important;
+}
+#sing-in-header{
+    height: 68px !important;
+}
+
+}
+/* responsive panel style  */

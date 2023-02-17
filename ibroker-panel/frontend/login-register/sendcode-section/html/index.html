@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link font awesome  -->
+    <link rel="stylesheet" href="../../assets/font-awesome/css/all.min.css">
+    <!-- link Bootstrap -->
+    <link rel="stylesheet" href="../../assets/css-min-base/bootstrap.min.css">
+    <!-- link style login -->
+    <link rel="stylesheet" href="../../assets/login-register-style/send-code-responsive.css">
+    <!-- link responsive style -->
+    <link rel="stylesheet" href="../../assets/login-register-style/send-code.css">
+    <title>SendCode</title>
+</head>
+<body>      
+  <!-- section -->
+  <section id="section-sendCode">
+      <div class="container container-sendCode">
+        <div class="row justify-content-between">
+          <!-- form -->
+          <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 content content-form">
+            <!-- header -->
+            <div class="col-md-12 col-sm-12 col-lg-12 form-heading box-sizing-element">
+              <p class="form-header-p box-sizing-element"> لوگو</p>
+          </div>
+              <!-- header -->
+          <div class="col-md-12 col-sm-12 col-lg-12 form-heading box-sizing-element">
+              <p class="form-header-h box-sizing-element">
+                 کاربر گرامی قبل از اقدام به اخذ کد بورسی میبایست در سامانه سجام ثبت نام کرده باشید و کد سجام خود را اخذ نموده باشید.در صورتی که موفق به اخذ کد سجام
+                  در سامانه سجام نشده اید لطفا به آدرس      <strong >   <a href="#" style="color:#201F30 ; text-decoration: none;">    سامانه سجام </a></strong>             مراجعه فرمایید و ثبت نام را تکمیل نمایید
+              </p>
+          </div>
+          <!-- form -->
+          <div style="margin:16px 0;" class="col-md-12 col-sm-12 col-lg-12 form-heading box-sizing-element">
+              <h5 class="box-sizing-element"> اخذ کد کالا بورس کالا</h5>
+        </div>
+          <form class="form-login box-sizing-element">
+            <!-- form-row form-group label input -->
+            <div class="row w-100 box-sizing-element">
+                <!-- form group for username and password -->
+                <div class="col-md-12 col-lg-12 col-sm-12 box-sizing-element form-group">
+                <!-- username input -->
+                <div class="row w-100 d-flex justify-content-between m-auto">
+                    <label class="box-sizing-element mb-1" for="the-send-code"> کدارسال شده را وارد کنید</label>
+                    <label for="the-send-code"> 09029076303</label>
+                </div>
+                <input type="number" class="form-control no-scroll" id="the-send-code" required>
+              </div>
+            </div>
+            <div id="form-time-container" class="row form-time-row box-sizing-element">
+                    <h1 class="form-time text-center w-100 box-sizing-element" id="timer-text">
+                      0<span id="minutes">1</span>:<span id="second">59</span>
+                    </h1>
+            </div>
+   <!-- Entry Button  -->
+   <div class="form-row entry-row col-xl-12 col-lg-12 col-md-12 col-sm-12 box-sizing-element" id="entry-row">
+    <div class="form-group input-entry col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12" >
+         <input value="ورود" type="button" class="form-control border-0 text-center box-sizing-element" id="log-in" style="background: #FFD600; width: 95%;">
+          <i class=" icons login-icon" style="left: 27%;">
+             <img src="../../assets/images-files/arrow-left-icon.svg" alt="#" class="w-100 img-fluid">
+           </i>   
+     </div>
+   <!-- input for get the code -->
+     <div class="form-group d-flex justify-content-end box-sizing-element input-entry col-lg-6 col-xl-6 col-md-5 col-sm-12 col-xs-12">
+       <input style="width: 95%; background: none;" value="بازگشت" type="button" class="form-control border-0 box-sizing-element" id="forget-pass">
+        <i class="icons forget-icon" style="left:15%">
+           <img src="../../assets/images-files/arrow-left-icon.svg" alt="#" class="w-100 img-fluid">
+         </i>   
+ </div>
+   </div> 
+ <!-- Entry Button -->
+        </form>
+          <!-- form -->
+          </div>
+          <!-- form -->
+          <!-- image -->
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 content content-image"></div>
+          <!-- image -->
+        </div>
+      </div>
+  </section>
+  <!-- section -->
+    <!-- link Script  -->
+    <!-- jquery -->
+    <script src="../../assets/JavaScript-min/jquery-3.6.1.min.js"></script>
+    <!-- popper -->
+    <script src="../../assets/JavaScript-min/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="../../assets/JavaScript-min/bootstrap.min.js"></script>
+    <!-- script -->
+    <script src="../../assets/login-register-js/sendCode.js"></script>
+ 
+</body>
+</html>

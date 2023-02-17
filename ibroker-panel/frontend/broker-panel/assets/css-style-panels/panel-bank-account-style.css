@@ -1,0 +1,158 @@
+/* content */
+.information-Attorney{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;
+    border-bottom: 0.5px solid #201F30;
+    padding-bottom:1rem ;
+}
+.table{
+    border: none !important;
+}
+.table-box .table .table-header{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    /* Black */
+    background: #201F30;
+    border-radius: 8px;    
+    color: #FFFFFF;
+    position: relative;
+    border: none !important;
+}
+.table-box .table .table-body{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    /* Write */
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    position: relative;
+}
+.table-box .table .table-row{
+    display: flex;
+    justify-content: space-between !important;
+    position: absolute;
+    width: 100%;
+}
+.table-box .table .table-header .table-row h6{
+    border:none;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.table-box .table  .table-body .table-row h6{
+    border: none ;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;
+    display: flex;
+    align-items: center;
+    text-align: center;    
+    justify-content: center;
+    border-right: 0.1px solid  #B0B0B0;
+}
+.table-box .check-box label{
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;
+}
+.table-box .check-box input{
+    /* Write */
+    background: #201F30;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    /* Write */
+    color: #FFFFFF;
+    display: flex;
+    height: 40px;
+    width: 84px;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.Description a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: left;
+    letter-spacing: 0.01em;
+    /* green2 */
+    color: #2F9300;
+}
+.Description{
+    display: none;
+}
+#check-acount{
+    display: none;
+}
+#hidden-edit-button{
+    justify-content: center;
+    display: none;
+}
+#hidden-edit-button button{
+    border: none ;
+    background: #201F30;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    /* Write */
+    color: #FFFFFF;
+    width: 100% !important;
+    height:40px;
+}
+.content-header{
+    padding-right:0 !important;
+}
+.input-checkbox-container{
+    display: none !important;
+}
+#edit-input{
+    width: 84px !important;
+    height: 56px !important;
+    background-color: #201F30 !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    /* Write */
+    color: #FFFFFF;
+}
+#edit-check-box{
+    display: none;
+}
+/* panel-section */

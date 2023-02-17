@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- link font awesome  -->
+      <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
+      <!-- link Bootstrap -->
+      <link rel="stylesheet" href="../../assets/css-min-base/bootstrap.min.css">
+      <!-- link style base -->
+      <link rel="stylesheet" href="../../assets/css-min-base/base-panel.css">
+      <!-- link style panel -->
+      <link rel="stylesheet" href="../../assets/css-style-panels/panel-information-address-style.css">
+      <!-- link  responsive  -->
+      <link rel="stylesheet" href="../../assets/css-min-base/base-responsive.css">
+    <title>panel-information-location</title>
+</head>
+<body>
+        <!-- Home-Section -->
+            <section id="panel-section" class="information-location">
+                <!-- container -->
+                <div class="container" id="container">
+                    <!-- header -->
+                    <div class="col-md-12 col-lg-12 col-sm-12 header">
+                      <i style="color: #FFFFFF;" class="fa fa-arrow-left back-btn-arrow"></i>
+                       <h5 class="heading">اخذ کد بورس کالا</h5>
+                      <button class="btn btn-Exit">
+                        <span>خروج </span> 
+                      <i class="position-relative ">
+                          <img alt="logo" src="../../../login-register/assets/images-files/arrow-left-icon.svg"/>
+                      </i>
+                      </button>
+                    </div>
+                    <!-- header -->
+                    <div class="row w-100 box-sizing-element d-flex justify-content-between">
+                    <!-- slide-menu-right -->
+                    <div class="slide-menu col-lg-2 col-md-3 col-sm-12 box-sizing-element" id="slide-menu">
+                                <ul class="slide-navbar" id="navbar-nav">
+                                    <li class="slide-items">
+                                        <h5 href="#">
+                                             <span>اطلاعات </span> کاربر
+                                        </h5>
+                                    </li>
+                                    <li class="slide-items" id="information-location">
+                                        <h5 href="#" id="information-button">
+                                            <span>اطلاعات </span> نشانی
+                                        </h5>
+                                    </li>
+                                    <li class="slide-items">
+                                        <h5 href="#">
+                                            <span>اطلاعات</span> شغلی
+                                        </h5>
+                                    </li>
+                                    <li class="slide-items">
+                                        <h5 href="#">
+                                            <span>اطلاعات </span> مالی
+
+                                        </h5>
+                                    </li>
+                                    <li class="slide-items">
+                                        <h5 href="#">
+                                            <span>اطلاعات </span> وکالتی آنلاین
+
+                                        </h5>
+                                    </li>
+                                    <li class="slide-items">
+                                        <h5 href="#">
+                                            <span>اطلاعات </span> بانکی
+                                        </h5>
+                                    </li>
+                                    <li class="slide-items">
+                                        <h5 href="#">
+                                            <span>اطلاعات </span> اسناد
+                                        </h5>
+                                    </li>
+                                    <li class="slide-items">
+                                        <h5 href="#">
+                                            تعهدات مشتری
+                                        </h5>
+                                    </li>
+                                    <li class="slide-items">
+                                        <h5 href="#">
+                                            <span>اطلاعات </span> معرفی نامه 
+                                        </h5>
+                                    </li>
+                                </ul>
+                    </div>
+                    <!-- slide-menu-right -->
+                    <!-- content -->
+                    <div class="content col-lg-9 col-md-9 col-sm-12 box-sizing-element">
+                        <div class="row w-100 d-flex justify-content-between header-box box-sizing-element">
+                          <h5 class="content-header d-flex box-sizing-element align-items-center">
+                            اطلاعات نشانی <strong class="mr-1" style="color: #201F30;">(موارد ستاره دار الزامی است)  </strong>
+                          </h5>
+                          <div class="back-btn">
+                            <input class="form-control back-button-content-header box-sizing-element" type="button" value="بازگشت">
+                            <i class="icons" style="position:absolute; left:3%;">
+                              <img src="../../../login-register/assets/images-files/Vector.svg" alt="">
+                            </i>
+                          </div>  
+                        </div>
+                        <div class="row w-100 box-sizing-element responsive-container-scroll-from">
+                            <div class="container-fluid box-sizing-element" id="form-container">
+                              <div class="row box-sizing-element form-title-row">
+                                  <h5 class="form-title box-sizing-element">
+                                      اطلاعات نشانی محل کار
+                                  </h5>
+                            </div>
+                                <div style="margin-top:16px;" class="row field-responsive-margin box-sizing-element">
+                                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 box-sizing-element responsive-row-margin">
+                                    <div class="form-group box-sizing-element">
+                                      <label for="state">استان *</label>
+                                      <div class="dropdown show" id="state">
+                                        <span> انتخاب کنید</span>
+                                          <i class="fa fa-angle-down" href="#" role="button" id="dropdown-state-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                        <div class="dropdown-menu" aria-labelledby="dropdown-state-link">
+                                          <a class="dropdown-item" href="#">تهران</a>
+                                          <a class="dropdown-item" href="#">مازندران</a>
+                                          <a class="dropdown-item" href="#">اصفهان</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 box-sizing-element responsive-row-margin">
+                                    <div class="form-group box-sizing-element">
+                                      <label for="state-birth"> شهر * </label>
+                                      <div class="dropdown show" id="state-birth">
+                                        <span> انتخاب کنید</span>
+                                          <i class="fa fa-angle-down" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                          <a class="dropdown-item" href="#">تهران</a>
+                                          <a class="dropdown-item" href="#">مازندران</a>
+                                          <a class="dropdown-item" href="#">اصفهان</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+                                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 box-sizing-element responsive-row-margin">
+                                    <div class="form-group box-sizing-element">
+                                      <label for="street-name">خیابان/کوچه </label>
+                                      <input id="street-name" class="form-control" type="text">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div style="margin-top:16px;" class="row field-responsive-margin box-sizing-element">
+                                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 box-sizing-element">
+                                    <div class="form-group box-sizing-element responsive-row-margin">
+                                      <label for="plaque"> پلاک </label>
+                                      <input id="plaque" class="form-control" type="number">
+                                    </div>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 box-sizing-element">
+                                    <div class="form-group box-sizing-element responsive-row-margin">
+                                      <label for="area-code"> پیش شماره </label>
+                                      <input id="area-code" class="form-control" type="number">
+                                    </div>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 box-sizing-element">
+                                    <div class="form-group box-sizing-element responsive-row-margin">
+                                      <label for="landline-phone">تلفن ثابت *</label>
+                                      <input id="landline-phone" class="form-control" type="number">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div style="margin-top:16px;" class="row field-responsive-margin box-sizing-element">
+                                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 box-sizing-element responsive-row-margin">
+                                    <div class="form-group box-sizing-element">
+                                      <label for="name"> تلفن همراه </label>
+                                      <input id="name" class="form-control" type="number">
+                                    </div>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 box-sizing-element responsive-row-margin">
+                                    <div class="form-group box-sizing-element">
+                                      <label for="last-name"> کدپستی * </label>
+                                      <input id="last-name" class="form-control" type="number">
+                                    </div>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 box-sizing-element responsive-row-margin">
+                                    <div class="form-group box-sizing-element">
+                                      <label for="father-name">پست الکترونیک</label>
+                                      <input id="father-name" class="form-control" type="text">
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div style="margin-top:24px;" class="row d-flex align-content-center justify-content-end box-sizing-element w-100 ">
+                              <div class="continue col-sm-12 col-md-6 col-lg-4 mt-md-3 box-sizing-element">
+                                <input id="continue" class="form-control" type="button" value="ادامه">
+                                <i class="icons" style="top:30%;">
+                                  <img src="../../../login-register/assets/images-files/arrow-left-icon.svg" alt="">
+                                </i>
+                              </div>    
+                            </div>
+                        </div>
+                   </div>
+                    <!-- content -->
+                    </div>
+                </div>
+                <!-- container -->
+                <!-- responsive button continue -->
+                <div class="col-12 btn-continue-responsive">
+                  <input id="continue-responsive-button" class="form-control" type="button" value="ادامه">
+                  <i class="icons" style="left: 35%;" >
+                    <img src="../../../login-register/assets/images-files/arrow-left-icon.svg" alt="">
+                  </i>
+                </div>
+                <!-- responsive button continue -->
+            </section>
+        <!-- Home-Section -->
+    
+        <!-- link Script  -->
+    <!-- jquery -->
+    <script src="../../assets/javascript-min/jquery-3.6.1.min.js"></script>
+    <!-- popper -->
+    <script src="../../assets/javascript-min/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="../../assets/javascript-min/bootstrap.bundle.min.js"></script>
+    <!-- slide-menu scripts -->
+    <script src="../../assets/js-scripts-panels/panel-address.js"></script>
+</body>
+</html>

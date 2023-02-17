@@ -1,0 +1,128 @@
+.customer-obligations{
+    border:none !important ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.customer-obligations-items{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.customer-obligations-header{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: justify;
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;
+}
+.customer-obligations-items label{
+    font-family: 'IRANSansWeb',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #201F30;
+    padding-right: 24px;
+    padding-top: 12px;
+}
+.customer-obligations-items input{
+        /* primary2 */
+        background: #FDFDFD;
+        /* Black */
+        border-radius: 5px;
+        width: 24px;
+        height: 24px;
+}
+.Confirmation-text-box{
+    border: none;    
+    background: #FFFFFF;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    z-index: 999;
+}
+.Confirmation-text-box p{
+    margin: 12px !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #201F30;
+    width: 96.5% !important;
+}
+.Confirmation-text-box .row{
+    width: 100%;
+    display: flex;
+}
+.Confirmation-text-box label{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #201F30;
+    padding-right: 24px;
+    padding-top: 12px;
+}
+.Confirmation-text-box input{
+      /* primary2 */
+      background: #FDFDFD;
+      /* Black */
+      border-radius: 8px;
+      width: 24px;
+      height: 24px;
+}
+#sing-in-header{
+    border: none;
+    /* green */
+    background: #DDFFCD;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    display: none;
+    align-items: center;
+    height: 48px ;
+    margin-top: 14px;
+}
+#sing-in-header h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: justify;
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;
+    margin: 13px 24px;
+}
+#Final-registration{
+    justify-content: end;
+}
+.Description{
+    display: none;
+}
+.content-header{
+    padding-right:0 !important;
+}
+.box-shadow{
+    position: absolute;
+    top:0;
+    left: 0;
+    margin: 0;
+    padding:0;
+    background-color: #201f3091;
+    width: 100%; 
+    height: 125%;
+}

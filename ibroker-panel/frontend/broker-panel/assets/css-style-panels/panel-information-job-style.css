@@ -1,0 +1,23 @@
+.content .dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #201F30;
+    border-radius: 10px;
+    height: 46px;
+    max-width: 95%;
+}
+.content .dropdown span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    /* Primary */
+    color: #B0B0B0;
+    margin-right: 0.5rem;
+}
+.content .dropdown i {
+    color: #201F30;
+    margin-left: 0.5rem;
+}

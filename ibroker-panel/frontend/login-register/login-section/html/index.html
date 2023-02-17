@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link font Awesome  -->
+    <link rel="stylesheet" href="../../assets/font-awesome/css/all.min.css">
+    <!-- link Bootstrap -->
+    <link rel="stylesheet" href="../../assets/css-min-base/bootstrap.min.css">
+    <!-- link style login -->
+    <link rel="stylesheet" href="../../assets/login-register-style/login-style.css">
+    <!-- link responsive style -->
+    <link rel="stylesheet" href="../../assets/login-register-style/login-responsive.css">
+    <title>Login</title>
+</head>
+<body>      
+  <!-- section -->
+  <section id="section-login">
+      <div class="container container-login">
+        <div class="row justify-content-between">
+          <!-- form -->
+          <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 content content-form">
+            <!-- header -->
+            <div class="col-md-12 col-sm-12 col-lg-12 form-heading">
+              <p class="form-header-p box-sizing-element"> خوش آمدید ! </p>
+          </div>
+              <!-- header -->
+          <div class="col-md-12 col-sm-12 col-lg-12 form-heading box-sizing-element">
+              <h1 class="form-header-h box-sizing-element"> ورود</h1>
+          </div>
+          <!-- form -->
+          <form class="form-login box-sizing-element" id="form-login" action="#">
+            <!-- form-row form-group label input -->
+            <div class="box-sizing-element row w-100">
+                <!-- form group for username and password -->
+                <!-- user-name-input -->
+                <div class="form-group col-md-12 col-lg-12 col-sm-12 box-sizing-element">
+                  <label class="box-sizing-element mb-1" for="user-name">نام کاربری</label>
+                  <input type="text" class="form-control user-input" id="user-name" required>
+                </div>
+            </div>
+             <div class="row w-100 box-sizing-element" style="margin-top:8px;">
+                <div class="form-group col-md-12 col-lg-12 col-sm-12 box-sizing-element">
+                  <!-- user-password -->
+                  <label class="box-sizing-element mb-1" for="user-password">رمزعبور</label>
+                  <input type="password" class="form-control user-input" id="user-password" required>
+              </div>
+            </div>
+            <!-- captcha code -->
+            <div class="form-row col-xl-12 col-lg-12 col-md-12 col-sm-12 box-sizing-element" id="captcha-row">
+              <!-- input for get the code -->
+                <div class="form-group input-value col-lg-6 col-xl-6 col-md-6 col-sm-6 box-sizing-element">
+                    <label style="position:absolute" for="input-zip" class="box-sizing-element"> </label>
+                  <input style="width: 95%; " placeholder="کد را وارد کنید" type="number" class="form-control" id="input-zip">
+                </div>
+                <!-- code -->
+                <div class="form-group input-value col-lg-6 col-xl-6 col-md-6 col-sm-6 box-sizing-element d-flex justify-content-end">
+                  <input style="width:95%;" value="468673" type="button" class="form-control border-0" id="input-captcha-code">
+                     <i class="icons" id="refresh-icon">
+                      <img class="w-100 img-fluid" src="../../assets/images-files/fi-br-refresh.svg" alt="#">
+                    </i>           
+                </div>
+              </div>
+            <!-- captcha code -->
+            <!-- Entry Button  -->
+             <div class="form-row entry-row col-xl-12 col-lg-12 col-md-12 col-sm-12 box-sizing-element" id="entry-row">
+               <div class="form-group justify-content-start input-entry col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12">
+                    <input value="ورود" type="submit" class="form-control border-0 text-center box-sizing-element" id="log-in" style="background: #FFD600;width:95%;">
+                     <i class="icons login-icon" style="left:27%;">
+                        <img src="../../assets/images-files/arrow-left-icon.svg" alt="#" class="w-100 img-fluid">
+                      </i>   
+                </div>
+              <!-- input for get the code -->
+                <div class="form-group d-flex justify-content-end box-sizing-element input-entry col-lg-6 col-xl-6 col-md-5 col-sm-12 col-xs-12">
+                  <input style="width:95%;background:none;" value="فراموشی رمز عبور" type="button" class="form-control border-0 box-sizing-element" id="forget-pass">
+                   <i class="icons forget-icon" style="left:10%">
+                      <img src="../../assets/images-files/arrow-left-icon.svg" alt="#" class="w-100 img-fluid">
+                    </i>   
+            </div>
+              </div> 
+            <!-- Entry Button -->
+            <!-- sing-up inputs -->
+                     <div class="form-row sing-up-inputs col-lg-12 col-md-12 col-sm-12">
+                        <div class="w-100 submit-heading box-sizing-element">
+                            <h1 class="submit-header-h box-sizing-element"> ثبت نام</h1>
+                        </div>
+                        <div class="row w-100 input-sing-row box-sizing-element">
+                          <div class="form-group box-sizing-element input-sing col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12">
+                              <input value="اخذ کد کالا در بورس کالا" type="button" class="form-control" id="input-code-kala">
+                                <i class="icons icon-get"  style="left:5%;">
+                                    <img src="../../assets/images-files/Vector.svg" alt="#">
+                                </i>  
+                            </div>
+                            <div class="form-group input-sing box-sizing-element col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ml-lg-4 ml-sm-0">
+                                <input value="اطلاعیه عرضه" type="button" class="form-control" id="input-supply">
+                                <i class="icons icon-notifications" style="left:5%;">
+                                    <img src="../../assets/images-files/Vector.svg" alt="#">
+                                </i>  
+                          </div>
+                        </div>
+                    </div> 
+            <!-- sing-up inputs -->
+              </form>
+          </div>
+          <!-- form -->
+          <!-- image -->
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 content content-image box-sizing-element"></div>
+          <!-- image -->
+        </div>
+      </div>
+  </section>
+  <!-- section -->
+    <!-- link Script  -->
+    <!-- jquery -->
+    <script src="../../assets/JavaScript-min/jquery-3.6.1.min.js"></script>
+    <!-- popper -->
+    <script src="../../assets/JavaScript-min/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="../../assets/JavaScript-min/bootstrap.min.js"></script>
+    <!-- login-javaScript-Code -->
+      <script src="../../assets/login-register-js/login.js" ></script>
+</body>
+</html>

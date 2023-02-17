@@ -1,0 +1,37 @@
+.form-title-row{
+    height: 56px;
+    width: 212px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 24px !important;
+    margin-right: 8px !important;
+}
+.form-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #201F30;
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.content .dropdown{
+    width: 95% !important;
+}
+@media screen and (max-width:767px) {
+    .form-title-row{
+        position: relative;
+        margin:  0 !important;
+        width: 100% !important;
+    }
+    .responsive-container-scroll-from{
+        height: 48% !important;
+        padding-top: 10% !important;
+    }
+}

@@ -1,0 +1,23 @@
+:root{
+    --Heading--color:#201F30;
+    --Heading--FontSize:56px;
+    --Heading--fontwight:700; 
+    --labelInput--fontColor:#201F30;
+    --labelInput--fontSize:14px;
+    --backGround--inputSubmit:#FFD600;
+    --inputSubmit--FontColor : #201F30;
+    --inputRegiste--backGroundColor : #201F30;
+    --inputRegister--FontSize : 1rem;
+    --inputRegister--FontColor: #FFFFFF;
+    --inputCode--backGround:#E9E8F3;
+    --inputCode--FontSize :24px;
+}
+
+@font-face {
+    font-family:iranSans ;
+    src: url("../font-face-files/IRANSansWeb(FaNum).ttf");
+}
+*{
+    font-family:iranSans ;
+}
+

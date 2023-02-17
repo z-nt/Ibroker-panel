@@ -1,0 +1,52 @@
+/* respansive panel style  */
+@media screen and (max-width:767px) {
+#attorney-row{
+    display: none;
+    }
+.Description{
+    display: flex !important;
+    order: 2 !important;
+    position: absolute;
+    left: 2%;
+    }
+.table-box{
+    border: none;
+}
+.hide-element{
+    display: none !important;
+}
+.table-body{
+    border: none ;
+    margin-top: 8px !important;
+    /* Write */    
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+.check-box{
+display: flex;
+align-items: center!important;
+justify-content: flex-end !important;     
+width: 30%;
+}
+#hidden-edit-button{
+    display: flex;
+    margin-top: 8px !important;
+}
+.check-box label,input[type="button"] {
+    display: none !important;
+}
+#edit-check-box{
+    display: flex ;
+}
+.btn-continue-responsive{
+    background: #FFD600  !important;
+}
+.btn-continue-responsive #continue{
+    color: #201F30 !important;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+}
+/* respansive panel style  */

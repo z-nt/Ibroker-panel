@@ -1,0 +1,57 @@
+
+.content .dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #201f307a;
+    border-radius: 10px;
+    height: 46px;
+    max-width: 95%;
+}
+.content .dropdown span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    /* Primary */
+    color: #B0B0B0;
+    margin-right: 0.5rem;
+}
+.content .dropdown i {
+    color: #201F30;
+    margin-left: 0.5rem;
+}
+#responsive-row-justify{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start !important;
+    text-align: left;
+    position: relative;
+    right: 12px;
+}
+#responsive-row-justify .input-little-items input{
+    right: 0;
+    width: 67px !important;
+    padding-right: 8px;
+}
+#responsive-row-justify .input-little-items  label{
+    right: 0 !important ;
+}
+.input-little-items{
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+    text-align: right !important;
+}
+@media  screen and (max-width:767px) {   
+#responsive-row-justify{
+    justify-content: space-between !important;
+    right: 0 !important;
+}
+#responsive-row-justify .input-little-items input{
+    right: 0;
+    width: 100% !important;
+}   
+}
+/* panel-oneStyle.css */

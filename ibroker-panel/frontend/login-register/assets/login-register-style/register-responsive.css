@@ -1,0 +1,63 @@
+/* responsive login */
+@media screen and (max-width:992px) {
+    #section-login{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+     width: 100%;
+     position: relative;
+    }
+     .content-form{
+         position: relative;
+         width: 100%;
+         margin: 0 16px 0 16px !important ;
+     }
+     .content-form .form-heading{
+         text-align: center;
+     }
+     .content-form .form-heading p{
+         font-size: 1rem;
+     }
+     .content-form .form-heading h1{
+         margin:0;
+         padding:0;
+         left:0;
+         box-sizing: border-box;
+         display: flex;
+         align-items: center;
+         justify-content: center; 
+                
+     }
+   .content-form  .form-header-p{
+    font-size:  40px !important; 
+   }
+     .content-form .form-login .input-value #input-captcha-code {
+         font-size: 14px;
+         letter-spacing: 0;
+         margin-right: 0.9rem;
+     }
+     .content-image{
+         display: none;
+     }
+     
+    .content-form .form-login  .input-entry {
+         width: 100% !important;
+         margin:8px auto  !important;
+        
+     }
+ 
+     
+    .content-form .form-login  .input-entry input{
+         width: 100% !important;
+     }
+ 
+     .content-form .form-login  .input-entry  .login-icon{
+         position: absolute;
+         left: 40% !important;
+     }
+     .content-form .form-login  .input-entry .forget-icon{
+         position: absolute;
+         left: 35% !important;
+     }
+ 
+}

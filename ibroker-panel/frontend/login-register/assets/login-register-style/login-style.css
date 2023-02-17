@@ -1,0 +1,272 @@
+/* import font */
+@import url("../css-min-base/login-base.css");
+/* import font */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+/* section */
+#section-login{
+    width: 100%;
+    position: relative;
+}
+.container-login{
+    margin-top: 24px;
+}
+/* image */
+.content-image{
+    height: 500px;
+} 
+.content-image {
+    background-image: url("../images-files/humen.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+/* image */
+/* form */
+.content-form{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-heading{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-heading p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+    letter-spacing: 0.03em;
+    /* Primary */
+    color: #B0B0B0;
+}
+.form-heading h1{
+    font-weight: 700;
+    font-size: 50px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* Black */
+    color: #201F30;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    position: relative;
+    left: 0.2rem;
+}
+.form-login{
+    text-align: right;
+}
+.form-login label{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    /* Black */
+    color: #201F30;
+}
+.form-login input{
+    height: 48px;
+    /* primary2 */
+    background: #FDFDFD;
+    /* Black */
+    border: 0.02rem solid #201f3073;
+    border-radius: 10px;
+}
+.form-login #captcha-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100% !important;
+    padding:0;
+    margin:0 !important;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-top: 24px !important;
+}
+.form-login #captcha-row .input-value{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.form-login #captcha-row .input-value #input-captcha-code {
+    text-align: left !important;
+    /* background_avatar */
+    background: #E9E8F3;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 38px;
+    /* identical to box height */
+    letter-spacing: 0.16em;
+    /* Black */
+    color: #201F30;
+    padding-left:16px ;
+}
+.form-login #captcha-row .input-value input::placeholder{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #B0B0B0;
+}
+.form-login #captcha-row .input-value .icons{
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    right: 24px;
+    top: 13px;
+}
+.form-login #entry-row {
+    margin-top: 40px;
+    margin-right:0;
+    padding:0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-login #entry-row .input-entry{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.form-login #entry-row .input-entry input{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Black */
+    color: #201F30;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center ;
+}
+.form-login #entry-row .input-entry .icons {
+    width: 17px !important;
+    height: 24px !important;
+    position: absolute;
+    top: 12px ;
+}
+.form-login .sing-up-inputs{
+    margin:2rem 0  0  0;
+    padding:0;
+    box-sizing: border-box;
+/* Write */
+    background: #FFFFFF;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    border:none!important;
+    height: 121px ;
+    display: flex;
+}
+.form-login .sing-up-inputs  .submit-heading {
+    margin-right: 24px !important;
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+
+}
+.form-login .sing-up-inputs  .submit-heading h1{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height */
+    /* Black */
+    color: #201F30;    
+}
+.form-login .sing-up-inputs .input-sing-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: none !important;
+    margin-right: 24px !important;
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+}
+
+.form-login .sing-up-inputs .input-sing-row  .input-sing{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+.form-login .sing-up-inputs .input-sing-row  .input-sing input{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 25px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Write */
+    color: #FFFFFF;
+    /* Black */
+    background: #201F30;
+    border-radius: 8px;
+    width: 100%;
+}
+.form-login .sing-up-inputs .input-sing-row  .input-sing .icons{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 12px;
+}
+.box-sizing-element{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.emptyError::placeholder{
+    color: red !important;
+    font-weight: 500;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important; 
+}
+ input[type=number] {
+  -moz-appearance: textfield;
+}
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #201f307a !important;
+}
+input[type=button]{
+    border: none !important;
+}
+.input-entry #log-in:checked{
+    border: none !important;
+}
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+input[type=submit]{
+    outline: none !important;
+    border: none !important;
+}
+/* form */
+/* section */

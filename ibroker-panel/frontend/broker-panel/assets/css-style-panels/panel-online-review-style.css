@@ -1,0 +1,296 @@
+#section-panel{
+    position: relative;
+}
+/* content */
+.information-Attorney{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;
+    border-bottom: 0.5px solid #201f308c;
+    padding-bottom:16px ;
+}
+.table{
+    border: none !important;
+}
+.table-box .table .table-header{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    /* Black */
+    background: #201F30;
+    border-radius: 8px;    
+    color: #FFFFFF;
+    position: relative;
+    border: none !important;
+}
+.table-box .table .table-body{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    /* Write */
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    position: relative;
+}
+.table-box .table .table-row{
+    display: flex;
+    justify-content: space-between !important;
+    position: absolute;
+    width: 100%;
+}
+.table-box .table .table-header .table-row h6{
+    border:none;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.table-box .table  .table-body .table-row h6{
+    border: none ;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;
+    display: flex;
+    align-items: center;
+    text-align: center;    
+    justify-content: center;
+    border-right: 0.1px solid  #B0B0B0;
+}
+.table-box .check-box{
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: end !important;
+    justify-content: center !important;
+    align-items: center !important;
+      /* Write */
+      background-color: none !important;
+      background: none !important;
+      border-radius: 8px;
+}
+.table-box .check-box label{
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;
+}
+.check-box {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.input-checkbox-container{
+    width: 84px !important;
+    height: 56px !important;
+    border-radius: 8px;
+    margin-bottom:0 !important;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0 !important;
+    margin-top: 22px !important; 
+    /* Write */
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+}
+
+.Description a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: left;
+    letter-spacing: 0.01em;
+    /* green2 */
+    color: #2F9300;
+}
+.Description{
+    display: none;
+}
+/* panel-section */
+/* rules-container */
+.rules-container-off{
+    display: none;
+}
+.rules-container-on {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    transition: all 0.3s ease-in-out !important;
+    text-align: right;
+    border: none ;
+    text-align: right;
+    position: absolute;
+    z-index: 9999;
+    background: #FDFDFD;
+    border-radius: 16px;
+    top: 5%;
+    left: 5%;
+}
+.rules-header h5{
+    font-family: 'IRANSansWeb';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: right;
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;
+    margin: 32px 16px 24px 16px; 
+}
+#rules-container p{
+    font-family: 'IRANSansWeb';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;
+    margin: 16px 16px 24px 16px !important;
+ }
+.rules-main{
+    margin: auto;
+    width: 97% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+#rules-container .rule-box-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+#rules-container .btn-check-box h5{
+    margin-right: 10px;
+    font-family: 'IRANSansWeb';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;
+}
+#rules-container .btn-check-box{
+    justify-content: flex-start;
+    margin-right:0 !important;
+    padding-right: 0ch;
+}
+#rules-container  .btn-enter-box{
+    justify-content: flex-end;
+    width: 288px !important;
+    padding-left:0;
+    margin-left:0;
+}
+#rules-container  .btn-enter-box input{
+    /* Yellow */
+    background: #FFD600 !important;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Black */
+    color: #201F30;
+    width: 288px !important;
+    border: none !important;
+}
+#rules-container  .btn-enter-box  .icons{
+    border: none;
+    position: absolute;
+    left: 25%;
+}
+.content-header{
+    padding-right:0 !important;
+}
+input[type="checkbox"]{
+    width: 24px !important;
+    height: 24px  !important;
+    border-radius: 8px !important;
+}
+#checkbox-header{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: justify;
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;
+    position: relative;
+    top: 8px;
+}
+.description-container{
+    border: none ;
+    position: absolute;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 90%;
+    height: 292px;
+    top: 30vh;
+    left: 5%;
+    /* Write */
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.description-container p {
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    /* Black */
+    color: #201F30;
+    margin: 56px 16px 16px 16px !important;
+}
+.description-container i{
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    font-size: 16px;
+    color: #201F30;
+}
+.box-shadow{
+    position: absolute;
+    top:0;
+    left: 0;
+    margin: 0;
+    padding:0;
+    background-color: #201f3091;
+    width: 100%; 
+    height: 125%;
+}
+/* rules-container */

@@ -1,0 +1,72 @@
+/* responsive panel style  */
+@media screen and (max-width:767px) {
+.box-list-account{
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: right !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+.continue {
+    display: none !important;
+}  
+.btn-continue-responsive{
+    display: flex;
+    border:none ;
+    height: 72px;
+    margin-bottom: 0 !important;
+}
+.btn-continue-responsive #continue{
+    background: #FFD600;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #201F30;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.btn-continue-responsive .icons{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+}
+@media screen and (max-width:992px) {    
+.format-file-items{
+    margin-top: 0.5rem;
+}
+#upload-file-list-items{
+    display: flex !important;
+    align-items: center !important;
+    margin-top: 8px ;
+}
+#upload-file-list-items h5{
+    margin:0 !important;
+}
+.box-delete-account button {
+    position: relative;
+    top: 7% !important;
+}
+#upload-file-list-items{
+    position: relative;
+    display: flex;
+    height: 56px !important;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 8px ;
+    background: #FFFFFF;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+}
+
+}
+/* responsive panel style  */

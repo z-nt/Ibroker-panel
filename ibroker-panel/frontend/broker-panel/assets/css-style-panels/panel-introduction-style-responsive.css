@@ -1,0 +1,35 @@
+/* respansive panel style  */
+@media screen and (max-width:767px) {
+.introduction-items-header h5 {
+    border: none !important;
+    width: 100%;
+    margin:0 !important;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.introduction-bank-container {
+    margin: 10px 10px !important;
+}
+.user-introduction-row {
+    display: none !important;
+}
+.items-money-market .introduction-items-header {
+    height: 68px !important;
+}
+}
+@media screen and (max-width:992px) {
+.introduction-items {
+    max-width: none !important;
+    margin-top: 16px !important;
+}
+.items-money-market {
+    margin-top: 14.5px !important;
+}
+.introduction-bank-container {
+    justify-content: space-evenly !important;
+}
+.introduction-bank-row {
+     margin-top: 24px;
+}
+}
+/* respansive panel style  */

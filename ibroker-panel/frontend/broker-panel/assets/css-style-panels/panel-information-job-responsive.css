@@ -1,0 +1,121 @@
+/* respansive panel style  */
+@media screen and (max-width:767px) {
+#panel-section{
+        border:none ;
+        height: 812px;
+}
+.header{
+        direction: ltr;
+        text-align: center;
+        /* Black */
+        background: #201F30;
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        margin:  0.5rem auto;
+        max-width: 100% !important;
+}
+.header-box{
+        border: none ;
+        text-align: center !important;
+        align-items: center !important;
+        display: flex !important;
+        flex-direction: column;
+        height: 2rem;
+        position: relative;
+        margin-top: 24px;
+}
+.back-btn-arrow{
+        display: flex;
+}
+.heading{
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+}
+.slide-menu{
+    display: none;
+}
+.content{
+    justify-content: space-evenly;
+    text-align: right;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.content .header-box{
+    max-height: 3rem;
+    width: 100% !important;
+    text-align: right !important;
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+.content .content-header{
+    position: relative;
+    width: 100% !important;
+    display: flex !important;
+}
+.content #form-container{
+    position: relative;
+    margin-top: 2rem;
+}
+.btn-Exit{
+    max-width: 52px;
+    border: none;
+    text-align: center;
+    background: transparent;
+    margin: 0;
+}
+.btn-Exit span{
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFD600;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+}
+.content .back-btn{
+        width: 120% !important;
+        position:relative !important;
+        margin-top: 1rem;
+        border-radius: 0 !important;
+        display: none;
+    } 
+}
+@media screen and (max-width:767px) {
+.continue {
+        display: none !important;
+}  
+.btn-continue-responsive{
+        display: flex;
+        position: relative;
+        border:none ;
+        height: 72px;
+}
+.btn-continue-responsive #continue{
+        background-color: #FFD600;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        /* identical to box height */
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #201F30;
+        border: none;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+}
+.btn-continue-responsive .icons{
+        position: absolute;
+        left: 40%;
+        top: 40%;
+}
+}
+/* responsive panel style  */

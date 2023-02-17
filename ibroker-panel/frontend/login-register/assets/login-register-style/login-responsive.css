@@ -1,0 +1,107 @@
+/* responsive login */
+@media screen and (max-width:992px) {
+   #section-login{
+    width: 100%;
+    position: relative;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   }
+    .content-form{
+        position: relative;
+        width: 100%;
+        margin: 0 16px 0 16px !important ;
+    }
+
+    .content-form .form-heading{
+        text-align: center;
+    }
+    .content-form .form-heading p{
+        font-size: 14px !important;
+    }
+    .content-form .form-heading h1{
+        margin:0 0 0 24px;
+        padding:0;
+        left:0;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    .content-form .form-login .input-value #input-captcha-code {
+        font-size: 14px;
+        letter-spacing: 0;
+        margin-right: 0.9rem;
+    }
+    .content-image{
+        display: none;
+    }
+    .sing-up-inputs{
+        height: auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;    
+    }
+    .content-form .form-login .input-sing-row {
+        margin: 1rem 1rem !important;
+        border:  none !important;
+    }
+     .submit-heading {
+        display: flex !important;
+        text-align: right !important;
+        align-items: flex-start !important;
+        justify-items: flex-start !important;
+        margin:0 !important;
+        padding:0 !important;
+    }
+    .submit-heading .submit-header-h{
+        border: none ;
+        margin:0 !important;
+    }
+    .content-form .form-login .input-sing{
+        margin-top: 0.5rem !important;
+        display: flex !important;
+        flex-direction: column !important;
+        position: relative;
+    }
+   .content-form .form-login  .input-entry{
+        margin:8px auto  !important;
+    }
+    .content-form .form-login  .input-entry #log-in{
+        width: 100% !important;
+    }
+    .content-form .form-login  .input-entry  .login-icon{
+        position: absolute;
+        left: 35% !important;
+    }
+    .content-form .form-login  .input-entry .forget-icon{
+        position: absolute;
+        left: 25% !important;
+    }
+
+    .content-form .form-login  .input-sing   .icon-get{
+        position: absolute !important;
+        left: 20% !important;
+    }
+    .content-form .form-login  .input-sing   .icon-notifications{
+        position: absolute !important;
+        left: 25% !important;
+    }
+    .content-form .form-login  .input-sing  {
+        width: 95% !important;
+        margin:8px auto  !important;
+    }
+    .submit-header-h{
+        width: 90% !important;
+        margin-right: 1rem !important;
+        position: relative;
+        top: 1rem !important;
+    }
+}
+
+
+
+
+
+/* responsive login */
